@@ -790,7 +790,7 @@ a .team-link-item {
   margin-left: 80px;
 }
 
-.subsribe-title {
+.subscribe-title {
   margin-bottom: 16px;
   font-size: 16px;
   font-weight: 500;
@@ -800,34 +800,48 @@ a .team-link-item {
   color: rgba(255, 255, 255, 1);
 }
 
-.footer-modal {
+.footer-form{
   display: flex;
   gap: 24px;
+
 }
 
 .footer-input {
-  background-color: inherit;
+  background-color: transparent;
   width: 264px;
   height: 40px;
   border-radius: 4px;
-  border: 1px solid rgba(255, 255, 255, 1);
+  border: 1px solid #ffffff; 
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-size:12px;
+  line-height:1.5;
+  letter-spacing: 0.04em;
+  padding-left:16px;
+  padding-top: 8px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color:#ffffff;
 }
 
 .footer-btn {
   width: 165px;
   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 8px 24px;
   display: flex;
-  /* position: relative; */
-  background-color: rgba(77, 90, 229, 1);
+  background-color: #4D5AE5 ;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  color:#ffffff;
   text-align: center;
   border: none;
+  border-radius: 4px;
   color: rgba(255, 255, 255, 1);
+  cursor: pointer;
 }
 
 .footer-input::placeholder {
@@ -836,8 +850,7 @@ a .team-link-item {
   line-height: 2px;
   letter-spacing: 0.04em;
   text-align: left;
-  padding-top: 8px;
-  padding-left: 16px;
+  color:#ffffff;
 }
 
 .footer-modal-icon{
