@@ -561,9 +561,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
-        <button class="modal-btn">
+        <button type="button" class="modal-btn">
           <svg class="modal-btn-icon" width="8" height="8">
             <use
               href="./images/icons.svg#icon-close-btn"
@@ -576,18 +576,18 @@
         </p>
         <form class="modal-form">
           <div class="modal-form-block">
-            <label for="name" class="modal-label">Name</label>
+            <label for="user-name" class="modal-label">Name</label>
             <div class="modal-form-input">
               <input
                 type="text"
-                name="name"
-                id="name"
+                name="user-name"
+                id="user-name"
                 class="modal-input"
               />
               <svg
                 class="modal-form-block-icon user-icon-size"
-                width="12"
-                height="12"
+                width="18"
+                height="24"
               >
                 <use
                   href="./images/icons.svg#icon-person"
@@ -597,18 +597,18 @@
             </div>
           </div>
           <div class="modal-form-block">
-            <label for="telephone" class="modal-label">Phone</label>
+            <label for="user-telephone" class="modal-label">Phone</label>
             <div class="modal-form-input">
               <input
                 type="tel"
-                name="telephone"
-                id="telephone"
+                name="user-telephone"
+                id="user-telephone"
                 class="modal-input"
               />
               <svg
                 class="modal-form-block-icon tel-icon-size"
-                width="13"
-                height="13"
+                width="18"
+                height="24"
               >
                 <use
                   href="./images/icons.svg#icon-tel"
@@ -618,18 +618,18 @@
             </div>
           </div>
           <div class="modal-form-block">
-            <label for="email" class="modal-label">Email</label>
+            <label for="user-email" class="modal-label">Email</label>
             <div class="modal-form-input">
               <input
                 type="email"
-                name="email"
-                id="email"
+                name="user-email"
+                id="user-email"
                 class="modal-input"
               />
               <svg
                 class="modal-form-block-icon email-icon-size"
-                width="15"
-                height="12"
+                width="18"
+                height="24"
               >
                 <use
                   href="./images/icons.svg#icon-envelop"
@@ -639,38 +639,39 @@
             </div>
           </div>
           <div class="modal-form-block-comment">
-            <label for="comment" class="modal-label">Comment</label>
+            <label for="user-comment" class="modal-label">Comment</label>
             <textarea
-              name="comment"
-              id="comment"
+              name="user-comment"
+              id="user-comment"
               cols="30"
               rows="10"
               placeholder="Text input"
               class="modal-input-comment"
             ></textarea>
           </div>
+          <div class="checkbox-block">
+            <input
+              type="checkbox"
+              class="modal-checkbox visually-hidden"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+            />
+            <label for="user-privacy" class="modal-label modal-label-element">
+              <span class="span-checkbox">
+                <svg class="checkbox-icon" width="10" height="8">
+                  <use
+                    href="./images/icons.svg#icon-mark"
+                    class="icon-mark"
+                  ></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href=""class="privacy-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button type="submit" class="submit-btn">Send</button>
         </form>
-        <div class="checkbox-block">
-          <input
-            type="checkbox"
-            class="modal-checkbox visually-hidden"
-            name="checkbox"
-            id="checkbox"
-          />
-          <label for="checkbox" class="modal-label modal-label-element">
-            <span class="span-checkbox">
-              <svg class="checkbox-icon" width="10" height="8">
-                <use
-                  href="./images/icons.svg#icon-mark"
-                  class="icon-mark"
-                ></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a href="">Privacy Policy</a>
-          </label>
-        </div>
-        <button type="submit" class="submit-btn">Send</button>
       </div>
     </div>
   </body>
