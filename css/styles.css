@@ -834,7 +834,6 @@ a .team-link-item {
   background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   position: absolute;
-  display: inline-flex; 
   top: 0;
   left: 0;
   margin-right: 8px;
