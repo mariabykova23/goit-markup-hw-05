@@ -782,28 +782,20 @@ a .team-link-item {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
+}
+
+.modal-form-icon{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .tel-icon-size {
-  padding: 5px 2px 6px 3px;
-}
-
-.user-icon-size {
-  padding: 6px 3px 6px 3px;
-}
-
-.email-icon-size {
-  padding: 6px 1.5px 6px 1.5px;
-} */
 
 .modal-input:hover,
 .modal-input:focus {
   border-color: rgba(77, 90, 229, 1);
 }
 
-.modal-form-input:hover .modal-form-block-icon,
-.modal-form-input:focus .modal-form-block-icon {
+.modal-form-input:hover .modal-form-icon,
+.modal-form-input:focus .modal-form-icon {
   fill: #4D5AE5;
 }
 
