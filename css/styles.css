@@ -689,7 +689,7 @@ a .team-link-item {
 }
 
 .modal-btn:hover .modal-btn-icon,
-.modal-btn:focus .modal-btn-icon {
+.modal-btn:focus-within .modal-btn-icon {
   fill: rgba(255, 255, 255, 1);
 }
 
@@ -795,7 +795,7 @@ a .team-link-item {
 }
 
 .modal-form-input:hover .modal-form-block-icon,
-.modal-form-input:focus .modal-form-block-icon {
+.modal-form-input:focus-within .modal-form-block-icon {
   fill: #4D5AE5;
 }
 
