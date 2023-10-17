@@ -4,7 +4,7 @@ body {
   line-height: 1.5;
   background-color: #ffffff;
   color: #434455;
-  max-width: 1440px;
+  
 }
 
 /* ================================================================ */
@@ -42,6 +42,7 @@ ul {
   width: 1128px;
   box-sizing: border-box;
   margin-left: 150px;
+  max-width: 1440px;
   /* outline: 1px red solid; */
 }
 
@@ -53,6 +54,7 @@ ul {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    max-width: 1440px;
 }
 
 .container-header {
